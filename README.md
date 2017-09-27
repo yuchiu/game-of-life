@@ -10,4 +10,4 @@ User Story: I can clear the board.
 
 User Story: When I press start, the game will play out.
 
-![alt text](https://github.com/yuchiu/game-of-life/blob/master/599cb040d6d49581037738.gif) 
+![alt text](https://github.com/yuchiu/game-of-life/blob/master/demo.gif) 

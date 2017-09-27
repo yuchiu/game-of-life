@@ -1,4 +1,3 @@
-
 function Conway(size) {
     this.size = size;
     this.grid = this.generateGrid(size);
@@ -36,6 +35,11 @@ Conway.prototype.renderGrid = function(){
         $grid.append($row);
     }
 };
+Conway.prototype.removeGrid = function(){
+    let $grid = $('#grid');
+        $grid.children().remove();
+        location.reload(true);
+}
 
 Conway.prototype.underPopulated = function (r, c) {
     let cell = this.grid[r][c];
@@ -63,9 +67,9 @@ Conway.prototype.updateNeighborsForCell = function (r, c) {
         let direction = this.directions[i];
         let dr = direction[0];
         let dc = direction[1];
+
         //check if different cell in bound, so cells on edge ll behave properly
         if (this.isInBounds(r+dr, c+dc)) {
-
             let neighbor = this.grid[r+dr][c+dc];
             if (neighbor.aliveOrNot()) {
                 cell.neighbors++;
