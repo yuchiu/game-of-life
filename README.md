@@ -1,6 +1,6 @@
 # game-of-life
 
-### View this live on [link](https://yuchiu.github.io/game-of-life/)
+### View this live on [link](https://puny-rate.surge.sh)
 
 ![demo](https://github.com/yuchiu/game-of-life/blob/master/demo.gif) 
 
