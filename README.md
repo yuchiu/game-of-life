@@ -1,5 +1,9 @@
 # game-of-life
 
+A game of simulating life based on its surrounding environment.
+
+Use JavaScript prototypal inheritance pattern to create component modules for reusability and maintainability.
+
 ### View this live on [link](https://puny-rate.surge.sh)
 
 ![demo](https://github.com/yuchiu/game-of-life/blob/master/demo.gif) 
