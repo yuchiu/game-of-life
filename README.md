@@ -8,12 +8,24 @@ Use JavaScript prototypal inheritance pattern to create component modules for re
 
 ![demo](https://github.com/yuchiu/game-of-life/blob/master/demo.gif) 
 
-User Story: When I first arrive at the game, it will randomly generate a board and start playing.
+### Game Rules:
 
-User Story: I can start and stop the board.
+- Any live cell with fewer than two live neighbours dies, as if caused by underpopulation.
 
-User Story: I can set up the board.
+- Any live cell with two or three live neighbours lives on to the next generation.
 
-User Story: I can clear the board.
+- Any live cell with more than three live neighbours dies, as if by overpopulation.
 
-User Story: When I press start, the game will play out.
+- Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+### User Story: 
+
+- When I first arrive at the game, it will randomly generate a board and start playing.
+
+- I can start and stop the board.
+
+- I can set up the board.
+
+- I can clear the board.
+
+- When I press start, the game will play out.
